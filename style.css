@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000000;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: groove;
+  width: 800px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #0056b3;
+}
+
+.reset-btn {
+  background: #dc3545;
+}
+
+.reset-btn:hover {
+  background: #c82333;
+}
+
+.home-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#studentListHome {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#studentListHome li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.day-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.attendance-table {
+  width: 60%;
+}
+
+.attendance-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table th, .attendance-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.student-list {
+  width: 30%;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.hi-maam {
+  padding:20 25;
+  font-size:20px;
+  font-family:"Lucida Console", monospace;
+  font-weight:bold;
+  outline: black;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color:rgb(47, 137, 255);
+  color:black;
+  box-shadow: 0 2px 25px rgba(0, 60, 255, 0.5);
+  position: relative;
+  left: 60%;
+  top: 150%;
+}
