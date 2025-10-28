@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>11 Abm B Altair Group 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+
+
+    </div>
+
+
+  
+  <div class="container">
+    <h1>Group 1's Student Attendance Tracker</h1>
+
+    <div class="top-buttons">
+      <button id="homeTab" class="tab active" onclick="showHome()">Home</button>
+      <div id="dayTabs" class="day-tabs"></div>
+      <button onclick="addDay()">Add Day</button>
+      <button onclick="resetAll()" class="">Reset</button>
+    </div>
+
+    <div id="tabContent">
+      <!--days-->
+      <div id="homeContent" class="home-section">
+        <p>Add students below. Then click "Add Day"</p>
+
+        <div class="input-group">
+          <input type="text" id="studentName" placeholder="Enter student name">
+          <button onclick="addStudent()">Add Student</button>
+        </div>
+
+        <ul id="studentListHome"></ul>
+      </div>
+
+      <!--Days-->
+      <div id="dayContents"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <div>
+    <a href="https://nikko1212.github.io">
+    <button  class="hi-maam">Dont Press</button>
+    </a>
+  </div>
+</body>
+</html>
